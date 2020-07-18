@@ -7,15 +7,9 @@
     justify-content: center;
     overflow: hidden;
 }
-.section h1 {
-    text-align: center;
-    font-size: 6rem;
-    font-family: "Cookie";
-    background: #fff;
-    padding: 20px;
-    margin: 15px;
+
+.title {
     z-index: 1;
-    opacity: .7;
 }
 
 .video-container {
@@ -23,4 +17,41 @@
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.title {
+    font-family: 'Staatliches', cursive;
+
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-fixed {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+[class^="parallax-"] {
+    width: 100%;
+    height: 350px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 350px;
+    text-align: center;
+    /*color: white;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parallax-1 {
+    background-image: url('../img/parallax1.jpg');
+}
+.parallax-2 {
+    background-image: url('../img/parallax2.jpg');
+}
+
+.parallax-3 {
+    background-image: url('../img/parallax3.jpg');
 }

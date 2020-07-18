@@ -5,29 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
     <title>Servicios Mineros</title>
 
 </head>
 <body>
-
-    <div class="section">
-        <h1>Welcome To Paradise</h1>
+    <header class="navbar-fixed">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
+            <a class="navbar-brand" href="#">
+                LOGO
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#somos">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="section" id="home">
+        <div class="title text-center">
+            <h1 class="title display-2 text-white">Servicios mineros</h1>
+            <p class="text-white">Descripción Pendiente()</p>
+            <button class="btn btn-outline-warning btn-lg ">Servicios</button>
+        </div>
         <div class="video-container">
             <video autoplay loop muted>
-                <source src="video/video2.mp4" type="video/mp4">
+                <source src="video/Mining.mp4" type="video/mp4">
             </video>
         </div>
     </div>
+    
+    <div class="somos" id="somos">
+        <div class="container pt-5 pb-5">
+            <h2 class="display-3 title text-warning">Quienes Somos</h2>
+            <p class="pt-3 pb-3 text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veritatis atque autem corrupti odio rerum, vel, incidunt sint dicta placeat eius nam. Totam facere voluptate praesentium natus maiores suscipit eum?</p>
+        </div>
+    </div>
+    <div class="parallax-1" id="servicios">
+        <h2 class="display-3 title text-warning">Nuestros Servicios</h2>
+    </div>
+
+    <div class="container pt-5 pb-5" >
+        <p class="pt-3 pb-3 text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor mollitia nemo recusandae beatae eveniet. Dolorem nobis soluta quibusdam dolorum praesentium blanditiis architecto fugiat repellendus ex accusantium. Dignissimos quasi nam laudantium?</p>
+    </div>
+
+    <div class="parallax-2"  id="trabajos">
+        <h2 class="display-3 title text-warning">Trabajos</h2>
+    </div>
+
     <div class="container">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veritatis atque autem corrupti odio rerum, vel, incidunt sint dicta placeat eius nam. Totam facere voluptate praesentium natus maiores suscipit eum?</p>
+        <div class="row row-cols-md-6 pt-4 pb-4">
+
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            <img class="p-1" src="./img/400x400-light.gif" alt="">
+            
+        </div>
+    </div>
+    <div class="parallax-3" id="contacto">
+        <h2 class="display-3 title text-warning">Contacto</h2>
+
+    </div>
+    <div class="container">
+        <form class="pt-5">
+            <div class="col-md-6"> 
+                <h3 class="displa-4 title">Contacto:</h3>
+                <div class="form-group row">
+                    <label for="nombre" class="col-md-2 col-sm-2 col-form-label">Nombre:</label>
+                    <div class="col-md-10 col-sm-10">
+                        <input type="text" name="nombre" class="form-control" id="nombre">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="asunto" class="col-md-2 col-sm-2 col-form-label">Asunto:</label>
+                    <div class="col-md-10 col-sm-10">
+                        <input type="text" name="asunto" class="form-control" id="asunto">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-sm-2 col-form-label">Email:</label>
+                    <div class="col-md-10 col-sm-10">
+                        <input type="email" name="email" class="form-control" id="email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="mensaje" class="col-md-2 col-sm-2 col-form-label">Mensaje:</label>
+                    <div class="col-md-10 col-sm-10">
+                        <textarea name="mensaje" id="mensaje" class="form-control" cols="20" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </form class="pt-5">
     </div>
 
 
+    <footer></footer>
 
-
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="./js/scripts.js"></script>
 </body>
 </html>
