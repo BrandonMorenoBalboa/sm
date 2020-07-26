@@ -21,11 +21,12 @@
 
 .title {
     font-family: 'Staatliches', cursive;
-
 }
+
 .text {
     font-family: 'Montserrat', sans-serif;
 }
+
 .navbar-fixed {
     position: fixed;
     z-index: 10;
@@ -45,13 +46,15 @@
     align-items: center;
     justify-content: center;
 }
+
 .parallax-1 {
-    background-image: url('../img/parallax1.jpg');
+    background-image: url('../img/roca1.jpg');
 }
+
 .parallax-2 {
-    background-image: url('../img/parallax2.jpg');
+    background-image: url('../img/roca2.jpg');
 }
 
 .parallax-3 {
-    background-image: url('../img/parallax3.jpg');
+    background-image: url('../img/roca3.jpg');
 }
