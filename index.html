@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
 
 
     <title>Servicios Mineros</title>
@@ -53,14 +57,14 @@
         </div>
         <div class="video-container">
             <video autoplay loop muted>
-                <source src="video/Video1.mp4" type="video/mp4">
+                <source src="video/ServiciosMineros_01.mp4" type="video/mp4">
             </video>
         </div>
     </div>
 
     <div class="somos" id="somos">
         <div class="container pt-5 pb-5">
-            <h2 class="display-3 title text-warning">Quienes Somos</h2>
+            <h2 class="display-3 title text-warning border-bottom border-warning">Quienes Somos</h2>
             <p class="pt-3 pb-3 text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veritatis atque autem corrupti odio rerum, vel, incidunt sint dicta placeat eius nam. Totam facere voluptate praesentium natus maiores suscipit eum?</p>
         </div>
     </div>
@@ -69,31 +73,155 @@
     </div>
 
     <div class="container pt-5 pb-5">
-        <p class="pt-3 pb-3 text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor mollitia nemo recusandae beatae eveniet. Dolorem nobis soluta quibusdam dolorum praesentium blanditiis architecto fugiat repellendus ex accusantium. Dignissimos quasi nam laudantium?</p>
+
+        <div class="row">
+            <h3 class="h1 col-md-12 text-left title mb-5 display-4 border-bottom border-warning">Servicios</h3>
+            <ul class="col-md-6">
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Fortificación de talud</li>
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Fortificación de galería</li>
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Demolición de losa</li>
+            </ul>
+            <ul class="col-md-6">
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Carga y detonación de explosivos</li>
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Mantenimiento perforadora manual neumática</li>
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Reducción de bolones con explosivo o cemento expansor</li>
+            </ul>
+        </div>
+        <div class="row">
+            <h3 class="h1 col-md-12 text-left title mb-5 display-4 border-bottom border-warning">MINERIA BASICA</h3>
+            <ul class="col-md-6">
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Construcción de galerías</li>
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Construcción de chimeneas para cara libre de hundimiento </li>
+            </ul>
+            <ul class="col-md-6">
+                <li class="h4 text-secondary text pt-2 pb-2"><i class="fas fa-square"></i> Construcción de chimeneas o de salidas de emergencia o de ventilación</li>
+            </ul>
+
+        </div>
     </div>
 
     <div class="parallax-2" id="trabajos">
         <h2 class="display-3 title text-warning">Trabajos</h2>
     </div>
-
-    <div class="container">
-        <div class="row row-cols-md-6 pt-4 pb-4">
-
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-            <img class="p-1" src="./img/400x400-light.gif" alt="">
-
+    <!--<div class="container">
+        <div>
+            <img class="p-1" src="./img/galeria/1.jpg" alt="">
+            <img class="p-1" src="./img/galeria/2.jpg" alt="">
+            <img class="p-1" src="./img/galeria/3.jpg" alt="">
+            <img class="p-1" src="./img/galeria/4.jpg" alt="">
+            <img class="p-1" src="./img/galeria/5.jpg" alt="">
+            <img class="p-1" src="./img/galeria/6.jpg" alt="">
+            <img class="p-1" src="./img/galeria/7.jpg" alt="">
+            <img class="p-1" src="./img/galeria/8.jpg" alt="">
+            <img class="p-1" src="./img/galeria/9.jpg" alt="">
+            <img class="p-1" src="./img/galeria/10.jpg" alt="">
+            <img class="p-1" src="./img/galeria/11.jpg" alt="">
+            <img class="p-1" src="./img/galeria/12.jpg" alt="">
+            <img class="p-1" src="./img/galeria/13.jpg" alt="">
+            <img class="p-1" src="./img/galeria/14.jpg" alt="">
+            <img class="p-1" src="./img/galeria/15.jpg" alt="">
+            <img class="p-1" src="./img/galeria/16.jpg" alt="">
+            <img class="p-1" src="./img/galeria/17.jpg" alt="">
+            <img class="p-1" src="./img/galeria/18.jpg" alt="">
+            <img class="p-1" src="./img/galeria/19.jpg" alt="">
+            <img class="p-1" src="./img/galeria/20.jpg" alt="">
+            <img class="p-1" src="./img/galeria/21.jpg" alt="">
+            <img class="p-1" src="./img/galeria/22.jpg" alt="">
+            <img class="p-1" src="./img/galeria/23.jpg" alt="">
+            <img class="p-1" src="./img/galeria/24.jpg" alt="">
+            <img class="p-1" src="./img/galeria/25.jpg" alt="">
+            <img class="p-1" src="./img/galeria/26.jpg" alt="">
+            <img class="p-1" src="./img/galeria/27.jpg" alt="">
+            <img class="p-1" src="./img/galeria/28.jpg" alt="">
+            <img class="p-1" src="./img/galeria/29.jpg" alt="">
+            <img class="p-1" src="./img/galeria/30.jpg" alt="">
+            <img class="p-1" src="./img/galeria/31.jpg" alt="">
+            <img class="p-1" src="./img/galeria/32.jpg" alt="">
+            <img class="p-1" src="./img/galeria/33.jpg" alt="">
+            <img class="p-1" src="./img/galeria/34.jpg" alt="">
+            <img class="p-1" src="./img/galeria/35.jpg" alt="">
+            <img class="p-1" src="./img/galeria/36.jpg" alt="">
+            <img class="p-1" src="./img/galeria/37.jpg" alt="">
+            <img class="p-1" src="./img/galeria/38.jpg" alt="">
+            <img class="p-1" src="./img/galeria/39.jpg" alt="">
         </div>
+    </div>-->
+    <div class="container">
+        <div class="row">
+            <h3 class="h1 col-md-12 text-left title mb-5 display-4 border-bottom border-warning pt-3">Galeria</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 pb-5 popup-gallery">
+            <a class="p-1" href="./img/fotos/1.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/1.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/2.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/2.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/3.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/3.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/4.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/4.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/5.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/5.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/8.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/8.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/13.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/13.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/15.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/15.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/16.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/16.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/18.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/18.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/19.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/19.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/21.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/21.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/24.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/24.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/25.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/25.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/28.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/28.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/30.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/30.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/31.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/31.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/32.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/32.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/34.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/34.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/36.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/36.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/38.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/38.jpg" alt="" class="img-fluid">
+            </a>
+            <a class="p-1" href="./img/fotos/39.jpg" data-fancybox="gallery" data-caption="">
+                <img src="./img/fotos/39.jpg" alt="" class="img-fluid">
+            </a>
+        </div>
+
     </div>
+
+
     <div class="parallax-3" id="contacto">
         <h2 class="display-3 title text-warning">Contacto</h2>
 
@@ -101,11 +229,17 @@
     <div class="container">
         <form class="pt-5">
             <div class="col-md-6">
-                <h3 class="displa-4 title">Contacto:</h3>
+                <h3 class="displa-4 title text-warning border-bottom">Trabaja con nosotros</h3>
                 <div class="form-group row">
                     <label for="nombre" class="col-md-2 col-sm-2 col-form-label">Nombre:</label>
                     <div class="col-md-10 col-sm-10">
                         <input type="text" name="nombre" class="form-control" id="nombre">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="empresa" class="col-md-2 col-sm-2 col-form-label">Empresa:</label>
+                    <div class="col-md-10 col-sm-10">
+                        <input type="text" name="nombre" class="form-control" id="empresa">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -132,16 +266,45 @@
                     </div>
                 </div>
             </div>
-        </form class="pt-5">
+        </form>
     </div>
 
-
-    <footer></footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 
+        Email de contacto
+        hugovargas1998@gmail.com
+        Preparar Footer
+    -->
+    <footer class="border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="title h3 pt-3">Fono: +56 9 8724 5189</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="title h3 pt-3">contacto<span class="text-warning">@</span>serviciosmineros.cl</p>
+                </div>
+                <div class="col-md-4 pt-1">
+                    <a class="pt-3 text-body" href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+                    <a class="pt-3 text-body" href=""><i class="fab fa-instagram-square fa-3x"></i></a>
+                    <a class="pt-3 text-body" href=""><i class="fab fa-youtube-square fa-3x"></i></a>
+                    <a class="pt-3 text-body" href=""><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a class="pt-3 text-body" href=""><i class="fab fa-whatsapp-square fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer mt-auto py-0 bg-dark p-1">
+        <div class="container">
+            <p class="text-white text-center">&copy <span id="anio">2020</span> Brandon Moreno</p>
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/all.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
