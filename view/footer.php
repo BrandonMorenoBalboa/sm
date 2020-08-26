@@ -30,7 +30,7 @@
     </footer>
     <footer class="footer mt-auto pb-1 pt-1 bg-dark">
         <div class="container">
-            <p class="text-white text-center">&copy <span id="anio"></span> Servicios Mineros</p>
+            <p class="text-white text-center">&copy <span id="anio"></span> Servicios Mineros H-J</p>
         </div>
     </footer>
     <script src="./js/jquery.min.js"></script>

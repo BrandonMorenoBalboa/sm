@@ -6,7 +6,7 @@
     <meta property="og:url" content="https://serviciosmineroshj.cl/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Servicios Mineros H-J">
-    <meta property="og:description" content="Brindamos una amplia gama de soluciones a nuestros clientes.">
+    <meta property="og:description" content="Somos una empresa Chilena especializada en perforaciones manuales, fortificaciones, construcción de chimeneas, carga y detonación de explosivos.">
     <meta property="og:image" content="https://serviciosmineroshj.cl/img/background-op.png">
 
     <meta charset="UTF-8">
@@ -26,7 +26,8 @@
     <header class="navbar-fixed">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
             <a class="navbar-brand" href="#">
-                <img src="./img/logo-min.png" width="" height="30" alt="" loading="lazy">
+                <!-- Height 30 px -->
+                <img src="./img/logo.jpg" width="" height="40" alt="" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
