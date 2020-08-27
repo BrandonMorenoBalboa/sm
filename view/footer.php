@@ -38,7 +38,7 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/all.js"></script>
     <script src="./js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./js/jquery2.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
 </body>
 </html>
